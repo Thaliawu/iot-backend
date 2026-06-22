@@ -1,0 +1,5 @@
+com/iot/datacollector/entity/DeviceData.class
+com/iot/datacollector/controller/DataController.class
+com/iot/datacollector/DataCollectorApplication.class
+com/iot/datacollector/mapper/DeviceDataMapper.class
+com/iot/datacollector/controller/HelloController.class

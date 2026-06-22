@@ -1,0 +1,8 @@
+/home/thalia/iot_pipeline/data-collector/src/main/java/com/iot/datacollector/DataCollectorApplication.java
+/home/thalia/iot_pipeline/data-collector/src/main/java/com/iot/datacollector/controller/DataController.java
+/home/thalia/iot_pipeline/data-collector/src/main/java/com/iot/datacollector/controller/MailTestController.java
+/home/thalia/iot_pipeline/data-collector/src/main/java/com/iot/datacollector/entity/DeviceData.java
+/home/thalia/iot_pipeline/data-collector/src/main/java/com/iot/datacollector/entity/DeviceDataAvg.java
+/home/thalia/iot_pipeline/data-collector/src/main/java/com/iot/datacollector/repository/DeviceDataAvgRepository.java
+/home/thalia/iot_pipeline/data-collector/src/main/java/com/iot/datacollector/repository/DeviceDataRepository.java
+/home/thalia/iot_pipeline/data-collector/src/main/java/com/iot/datacollector/service/AggregationService.java

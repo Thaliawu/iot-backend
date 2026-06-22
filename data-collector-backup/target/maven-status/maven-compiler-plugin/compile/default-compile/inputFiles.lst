@@ -1,0 +1,5 @@
+/home/thalia/iot_pipeline/data-collector/src/main/java/com/iot/datacollector/DataCollectorApplication.java
+/home/thalia/iot_pipeline/data-collector/src/main/java/com/iot/datacollector/controller/DataController.java
+/home/thalia/iot_pipeline/data-collector/src/main/java/com/iot/datacollector/controller/HelloController.java
+/home/thalia/iot_pipeline/data-collector/src/main/java/com/iot/datacollector/entity/DeviceData.java
+/home/thalia/iot_pipeline/data-collector/src/main/java/com/iot/datacollector/mapper/DeviceDataMapper.java

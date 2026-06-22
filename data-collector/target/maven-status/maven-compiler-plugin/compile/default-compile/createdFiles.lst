@@ -1,0 +1,8 @@
+com/iot/datacollector/entity/DeviceData.class
+com/iot/datacollector/controller/DataController.class
+com/iot/datacollector/DataCollectorApplication.class
+com/iot/datacollector/repository/DeviceDataAvgRepository.class
+com/iot/datacollector/repository/DeviceDataRepository.class
+com/iot/datacollector/entity/DeviceDataAvg.class
+com/iot/datacollector/controller/MailTestController.class
+com/iot/datacollector/service/AggregationService.class

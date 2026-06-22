@@ -1,0 +1,4 @@
+com/iot/alertservice/AlertServiceApplication.class
+com/iot/alertservice/repository/DeviceDataRepository.class
+com/iot/alertservice/service/AlertService.class
+com/iot/alertservice/entity/DeviceData.class

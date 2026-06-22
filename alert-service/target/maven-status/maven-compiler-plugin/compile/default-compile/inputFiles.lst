@@ -1,0 +1,4 @@
+/home/thalia/iot_pipeline/alert-service/src/main/java/com/iot/alertservice/AlertServiceApplication.java
+/home/thalia/iot_pipeline/alert-service/src/main/java/com/iot/alertservice/entity/DeviceData.java
+/home/thalia/iot_pipeline/alert-service/src/main/java/com/iot/alertservice/repository/DeviceDataRepository.java
+/home/thalia/iot_pipeline/alert-service/src/main/java/com/iot/alertservice/service/AlertService.java
