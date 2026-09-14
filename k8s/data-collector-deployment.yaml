@@ -1,0 +1,40 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: data-collector
+  labels:
+    app: data-collector
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: data-collector
+  template:
+    metadata:
+      labels:
+        app: data-collector
+    spec:
+      containers:
+        - name: data-collector
+          image: data-collector:latest
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 8080
+          envFrom:
+            - configMapRef:
+                name: iot-config
+            - secretRef:
+                name: iot-secret
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: data-collector-service
+spec:
+  selector:
+    app: data-collector
+  ports:
+    - port: 8080
+      targetPort: 8080
+      nodePort: 30080
+  type: NodePort

@@ -1,0 +1,40 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: alert-service
+  labels:
+    app: alert-service
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: alert-service
+  template:
+    metadata:
+      labels:
+        app: alert-service
+    spec:
+      containers:
+        - name: alert-service
+          image: alert-service:latest
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 8080
+          envFrom:
+            - configMapRef:
+                name: iot-config
+            - secretRef:
+                name: iot-secret
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: alert-service-service
+spec:
+  selector:
+    app: alert-service
+  ports:
+    - port: 8081
+      targetPort: 8080
+      nodePort: 30081
+  type: NodePort
